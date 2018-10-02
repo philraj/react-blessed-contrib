@@ -32,12 +32,12 @@
     "lodash.upperfirst": "^4.3.1"
   },
   "peerDependencies": {
-    "blessed": "0.1.x",
+    "neo-blessed": "^0.2.0",
     "react-blessed": "0.2.x",
     "react": "16.x"
   },
   "devDependencies": {
-    "blessed": "^0.1.81",
+    "neo-blessed": "^0.2.0",
     "react-blessed": "^0.2.1",
     "react": "^16.2.0",
     "babel-cli": "^6.18.0",

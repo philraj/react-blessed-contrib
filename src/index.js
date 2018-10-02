@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import upperFirst from 'lodash.upperfirst';
-import blessed from 'blessed';
+import blessed from 'neo-blessed';
 import contrib from 'blessed-contrib';
 
 // Patch blessed so that react-blessed picks up our wrapper
-blessed.__BLESSED_WRAPPER__ = function(props) { 
+blessed.__BLESSED_WRAPPER__ = function(props) {
   return props.__BLESSED_WIDGET__(props);
 }
 
